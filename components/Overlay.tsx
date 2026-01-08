@@ -223,7 +223,7 @@ const Overlay: React.FC<OverlayProps> = ({ currentSection, setSection, loading }
                 <div className="w-full md:w-1/3 flex flex-col gap-6">
                   <div className="w-full aspect-[3/4] bg-zinc-900 rounded-[2.5rem] flex items-center justify-center relative overflow-hidden group shadow-[0_0_30px_rgba(255,0,128,0.3)] border border-pink-500/20">
                      <img 
-                       src="/images/shivangi.jpg"
+                       src="/images/Shivangi.jpg"
                        alt="Shivangi Sharma"
                        className="w-full h-full object-cover object-top filter brightness-90 group-hover:brightness-100 transition-all duration-700"
                      />
