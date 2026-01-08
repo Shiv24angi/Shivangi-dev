@@ -200,7 +200,7 @@ const Overlay: React.FC<OverlayProps> = ({ currentSection, setSection, loading }
                   <ChevronRight size={18} className="group-hover:translate-x-2 transition-transform" />
                 </button>
                 <a 
-                  href="/images/resume.pdf" 
+                  href="/resume.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="px-8 py-3.5 bg-white/5 hover:bg-white/10 backdrop-blur-xl border border-white/10 rounded-full font-black text-[10px] md:text-xs uppercase tracking-[0.2em] flex items-center gap-3 transition-all"
