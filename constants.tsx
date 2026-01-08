@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
     tech: ['React', 'Django', 'SQL', 'Firebase', 'Tailwind'],
     link: 'https://vibetribe.vercel.app/',
     github: 'https://github.com/Shiv24angi/VIBETRIBE',
-    image: 'vibetribe.png',
+    image: '/images/vibetribe.png',
     status: 'live',
     features: ['Real-time messaging', 'Firebase Authentication', 'Dynamic content feed', 'Responsive Dashboard']
   },
@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
     fullDescription: 'A fintech solution that uses machine learning to predict loan defaults. It provides a "Smart Risk Predictor" dashboard that visualizes predictive scoring and recovery strategies using SHAP values for model transparency.',
     tech: ['Python', 'Streamlit', 'Scikit-learn', 'SHAP', 'Pandas'],
     github: 'https://github.com/Shiv24angi/loan_tracker',
-    image: 'payzen.png',
+    image: '/images/payzen.png',
     status: 'github',
     features: ['Predictive Risk Scoring', 'SHAP Explainability', 'Automated Recovery Suggestions', 'Interactive Dashboards']
   },
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     fullDescription: 'A massive platform designed to make legal rights accessible. Featuring "Aapki shikayat, hamara nivaran", it allows citizens to report issues across Jharkhand and get AI-driven legal assistance.',
     tech: ['Streamlit', 'Flask', 'Twilio', 'gTTS', 'GCP'],
     github: 'https://github.com/vanshaggarwal27/Nivaran',
-    image: 'nivaran.png',
+    image: '/images/nivaran.png',
     status: 'github',
     features: ['Multilingual AI Assistant', 'SMS/Voice Integration', 'Legal Document Generation']
   },
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
     fullDescription: 'An inclusive advisory tool that helps citizens understand their basic rights. It includes an Eligibility Checker for various identity, social, and financial background related legal statuses.',
     tech: ['AI/ML', 'Twilio', 'Flask', 'GCP'],
     github: 'https://github.com/harshitb206/GharGharGyaan',
-    image: 'gg-gyaan.png',
+    image: '/images/gg-gyaan.png',
     status: 'github'
   },
   {
@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
     fullDescription: 'A sustainability dashboard where users can track CO2 footprints, scan products for eco-ratings, and compete on carbon-reduction leaderboards.',
     tech: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
     github: 'https://github.com/Shiv24angi/EcoVerse',
-    image: 'ecoverse.png',
+    image: '/images/ecoverse.png',
     status: 'github'
   },
   {
@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
     fullDescription: 'A real-time hand-tracking application using MediaPipe and OpenCV. It detects finger landmarks to trigger interactive visual filters and digital overlays.',
     tech: ['OpenCV', 'Python', 'MediaPipe'],
     github: 'https://github.com/Shiv24angi/Hand_VR',
-    image: 'hand-ar.png',
+    image: '/images/hand-ar.png',
     status: 'github'
   },
   {
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
     fullDescription: 'A Computer Vision project that turns the webcam into a virtual drum kit. Hand positions are mapped to audio triggers, allowing users to play drums in mid-air.',
     tech: ['OpenCV', 'Python', 'PyGame'],
     github: 'https://github.com/Shiv24angi/MagicDrums',
-    image: 'magic-drums.png',
+    image: '/images/magic-drums.png',
     status: 'github'
   }
 ];

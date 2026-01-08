@@ -200,7 +200,7 @@ const Overlay: React.FC<OverlayProps> = ({ currentSection, setSection, loading }
                   <ChevronRight size={18} className="group-hover:translate-x-2 transition-transform" />
                 </button>
                 <a 
-                  href="resume.pdf" 
+                  href="/resume.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="px-8 py-3.5 bg-white/5 hover:bg-white/10 backdrop-blur-xl border border-white/10 rounded-full font-black text-[10px] md:text-xs uppercase tracking-[0.2em] flex items-center gap-3 transition-all"
@@ -223,7 +223,7 @@ const Overlay: React.FC<OverlayProps> = ({ currentSection, setSection, loading }
                 <div className="w-full md:w-1/3 flex flex-col gap-6">
                   <div className="w-full aspect-[3/4] bg-zinc-900 rounded-[2.5rem] flex items-center justify-center relative overflow-hidden group shadow-[0_0_30px_rgba(255,0,128,0.3)] border border-pink-500/20">
                      <img 
-                       src="shivangi.jpg" 
+                       src="/images/shivangi.jpg"
                        alt="Shivangi Sharma"
                        className="w-full h-full object-cover object-top filter brightness-90 group-hover:brightness-100 transition-all duration-700"
                      />
