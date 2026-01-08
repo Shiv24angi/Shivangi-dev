@@ -1,0 +1,7 @@
+{
+  "name": "Shivangi Sharma Portfolio - Immersive 3D Experience",
+  "description": "A high-end, cinematic 3D portfolio for an AI/ML & Full-Stack Developer, featuring Three.js, GSAP, and interactive WebGL environments.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
